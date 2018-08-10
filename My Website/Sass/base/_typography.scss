@@ -1,0 +1,97 @@
+
+
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body{
+	
+		font-family:'Lato', "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size:1.6rem;
+	line-height: 1.7;
+	padding:3rem;
+}
+
+
+.heading-primary{
+	color:#FFFFFF;
+    text-trasnsform:uppercase;
+
+	text-align: center;
+	backface-visibility: hidden;
+	margin-bottom:6rem;
+	
+}
+.heading-primary-main{
+	font-size:7.7rem;
+	font-weight:700;
+	letter-spacing: 2rem;
+	display:block;
+	
+}
+.heading-primary-second{
+	display:block;
+	font-size:2.5rem;
+	font-weight:40rem;
+	letter-spacing: 2.7rem;
+	animation-name: vanish;
+	animation-duration: 4s;
+
+	
+	
+}
+
+
+.text-box{
+	
+	position:absolute;
+	top:30%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+
+.graphic{
+	
+	float:left;
+	margin-right:1rem;
+	animation-name: moveInTop;
+	animation-duration: 2s;
+  
+}
+.design{
+	animation-name: moveInBottom;
+	animation-duration: 2s;
+	
+	
+	
+}
+
+.heading-secondary{
+	
+	font-size:3.5rem;
+	text-transform: uppercase;
+	font-weight: 400;
+	background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+	display:inline-block;
+	-webkit-background-clip:text;
+	color:transparent;
+	margin-bottom: 5rem;
+	
+}
+
+.heading-tertiary{
+	
+	font-size: 2.0rem;
+	font-weight:700;
+	text-transform: uppercase;
+	
+}
+
+.paragraph{
+	
+	font-size:1.6rem;
+	 
+	&:not(:last-child){
+		
+		margin-bottom:3rem;
+	}
+}

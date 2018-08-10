@@ -1,0 +1,18 @@
+.header{
+	
+	background-image:linear-gradient(
+		to right,
+		rgba($color-primary-light,.7),
+		rgba($color-primary-dark,.7)),
+		url('DSC01322.JPG');
+	background-size: cover;
+	background-position:center;
+	height:95vh;
+	clip-path:polygon(0 0,100% 0, 100% 80%, 0% 100%);
+	position:relative;
+	
+	
+	
+	
+	
+}

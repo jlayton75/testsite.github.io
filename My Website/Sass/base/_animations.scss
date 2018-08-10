@@ -1,0 +1,67 @@
+
+@keyframes moveInTop{
+	
+	0%{
+		opacity:0;
+		transform:translateY(-100px);
+		
+		
+	}
+	
+	80%{
+		
+		
+	}
+	
+	100%{
+		
+		opacity:1;
+		transform:translateY(0);
+		
+	}
+	
+	
+}
+
+@keyframes moveInBottom{
+	
+	0%{
+		opacity:0;
+		transform:translateY(100px);
+		
+		
+	}
+	
+	80%{
+		
+		
+	}
+	
+	100%{
+		
+		opacity:1;
+		transform:translateY(0);
+		
+	}
+	
+	
+}
+
+@keyframes vanish{
+	
+	0%{
+		opacity:0;
+	}
+	50%{
+		opacity:0;
+	}
+	100%{
+		opacity:1;
+	}
+}
+
+
+@keyframes split{
+	
+	
+}
